@@ -85,7 +85,7 @@ export const CalculatorPage: React.FC<Props> = (props: Props) => {
           </div>
           <div className={classes.buttonContainer}>
             <Button variant="contained" onClick={() => setValues({})}>
-              {result} Reset
+              Reset
             </Button>
           </div>
           </div>
